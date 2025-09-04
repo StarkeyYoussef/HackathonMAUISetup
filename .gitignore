@@ -1,0 +1,47 @@
+# .NET & Visual Studio
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vspscc
+*.vssscc
+.vs/
+# MAUI specific
+**/Platforms/Android/Resources/
+**/Platforms/iOS/Resources/
+**/Platforms/MacCatalyst/Resources/
+**/Platforms/Tizen/Resources/
+**/Platforms/Windows/Resources/
+# OS generated
+.DS_Store
+Thumbs.db
+# IDE
+.idea/
+.vscode/
+# NuGet
+*.nupkg
+# Others
+*.log
+*.pid
+*.tmp
+*.bak
+# APK/IPA
+*.apk
+*.ipa
+# Test results
+TestResults/
+# Auto-generated
+*.pdb
+*.dll
+*.exe
+*.cache
+*.config
+*.json
+*.idsig
+*.xml
+# Fonts/Images/Raw assets (if generated)
+!MauiVerifyApp/Resources/Fonts/
+!MauiVerifyApp/Resources/Images/
+!MauiVerifyApp/Resources/Raw/
