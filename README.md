@@ -19,6 +19,15 @@ This project is a .NET MAUI cross-platform app. Follow the instructions below to
    ```
    This will build and run the app for Windows only.
 
+**Note:** If you see a 'not digitally signed' error, run this first to allow unsigned scripts for your session:
+If you don't want to do that, you can use the Manual commands in the later section.
+
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+
+Then run the script as above.
+
 ### Mac
 
 1. Open Terminal in the repo root.
